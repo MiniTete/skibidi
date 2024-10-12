@@ -9,3 +9,30 @@ p{
     color: navajowhite;
     font-size: 40px;
 }
+a{
+    text-decoration: none;
+    font-size: 60px;
+    transform: translatex(400px);
+    color: #363636;
+    font-weight: bold;
+}
+a:hover{
+    color: red;
+    height: 10px;
+}
+nav{
+    position: relative;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: navajowhite;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+.navy{
+    color: #363636;
+    top: 1px;
+    transform: translateY(-40px);
+}
